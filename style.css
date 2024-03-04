@@ -54,7 +54,7 @@ section>div>img {
 
 @font-face {
     font-family: "Heebo-Black";
-    src: url(/Heebo/static/Heebo-Black.ttf);
+    src: url(./Heebo/static/Heebo-Black.ttf);
 }
 
 section>div>h1 {
@@ -65,7 +65,7 @@ section>div>h1 {
 
 @font-face {
     font-family: "Heebo-Regular";
-    src: url(/Heebo/static/Heebo-Regular.ttf);
+    src: url(./Heebo/static/Heebo-Regular.ttf);
 }
 
 section h2 {
