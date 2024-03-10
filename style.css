@@ -24,6 +24,16 @@ html {
     border-bottom: 3px solid #3DBDA4;
 }
 
+@keyframes slide {
+    from {
+        transform: translatex(-150%);
+    }
+
+    to {
+        transform: translatex(0);
+    }
+}
+
 .profile {
 
     width: 250px;
@@ -33,6 +43,7 @@ html {
     inset: 0;
     margin: 125px auto;
     border: 3px solid #3DBDA4;
+    animation: slide 3s ease;
 }
 
 section {
@@ -42,16 +53,13 @@ section {
 
 section>div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
 }
 
-section>div>img {
-    width: 50px;
-    height: 50px;
-}
+
 
 @font-face {
     font-family: "Heebo-Black";
@@ -134,6 +142,12 @@ footer>h2 {
     direction: rtl;
     color: white;
     margin: 0 15px;
+    font-size: 1em;
+}
+
+footer>img {
+    width: 50px;
+    height: 50px;
 }
 
 @media screen and (min-width:1000px) {
