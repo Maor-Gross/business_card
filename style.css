@@ -16,6 +16,7 @@ html {
     justify-content: center;
     align-items: center;
     gap: 15px;
+    background-image: url(./images/background.png);
 }
 
 .cover {
