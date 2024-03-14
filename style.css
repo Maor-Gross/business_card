@@ -67,7 +67,7 @@ section>div {
     src: url(./Heebo/static/Heebo-Black.ttf);
 }
 
-section>div>h1 {
+h1 {
     font-family: "Heebo-Black";
     text-align: center;
     font-size: 3em;
