@@ -25,6 +25,11 @@ html {
     border-bottom: 3px solid #3DBDA4;
 }
 
+button {
+    color: black !important;
+    background-color: #3DBDA4 !important;
+}
+
 @keyframes slide {
     from {
         transform: translatex(-150%);
